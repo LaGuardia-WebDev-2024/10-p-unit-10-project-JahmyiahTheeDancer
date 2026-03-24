@@ -5,10 +5,15 @@ setup = function() {
   size(400, 400); 
   background(0,0,0,0);
 
-  var cloverX = 60;
+ 
   textSize(30);
 
 
+//cakeyy
+
+for (var i = 55; i < 270 ; i+=60 ) {
+  text('🎂🧁🎂🧁🎂🧁🎂', 90, i);
+}
 
 
 
@@ -16,11 +21,7 @@ setup = function() {
 
 
 
-
-
-
-
-
+//statement
 var myWords = ["Soon", "It" , "Will" , "Be", "My" , "Birthday"];
 
  fill(0, 0, 0); 
@@ -38,9 +39,9 @@ text("My Birthday" + " is on " + "April 9'th!", 10, 340);
 
 
 var x = 0;
-  while(cloverX < 400){
-    text("", cloverX, 340);
-    cloverX += 40;
+  while(X < 400){
+    text("🎁🎉", X, 380);
+    X += 90;
   }
 
    
@@ -55,5 +56,7 @@ draw = function(){
 
 
 mouseClicked = function(){
+
+  text("Happy Early birthday" , random(0, 600), random(0, 400));
 
 }
