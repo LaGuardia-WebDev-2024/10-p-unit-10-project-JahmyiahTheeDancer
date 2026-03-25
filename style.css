@@ -1,6 +1,6 @@
 body {
-  background-image: url("Sprinkles.jpg");
-  background-color: hsl(213, 85%, 92%);
+  background-image: url("https://i.fbcd.co/products/original/preview-cfe4e40dd393e215a36ae95be4185392391dd1aebfecaa05f0d3becbe1de66bb.jpg");
+  
   background-blend-mode: overlay;
   text-align: center;
   background-size: cover;
@@ -15,7 +15,7 @@ html{
 }
 
 #myCanvas1 {
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
   background-image: url("https://whitescreen.dev/images/pro/lg_1-lang.png");
   background-size: cover;
   background-position: center;

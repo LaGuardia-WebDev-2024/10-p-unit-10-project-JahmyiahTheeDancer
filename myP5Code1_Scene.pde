@@ -9,10 +9,10 @@ setup = function() {
   textSize(30);
 
 
-//cakeyy
+//MY cakeyy
 
-for (var i = 55; i < 270 ; i+=60 ) {
-  text('🎂🧁🎂🧁🎂🧁🎂', 90, i);
+for (var i = 55; i < 290 ; i+=60 ) {
+  text('🎂🎂🎂🎂🎂🎂🎂', 150, i);
 }
 
 
@@ -22,9 +22,11 @@ for (var i = 55; i < 270 ; i+=60 ) {
 
 
 //statement
-var myWords = ["Soon", "It" , "Will" , "Be", "My" , "Birthday"];
+var myWords = [" Ngl ", " My " , " Birthday " , " Is ", " Coming " , " Up ! "];
 
- fill(0, 0, 0); 
+
+ fill(0, 199, 166); 
+ textFont( createFont( "Georgia" ) );
   text(myWords[0], 10, 30);
   text(myWords[1], 10, 80);
   text(myWords[2], 10, 130);
@@ -32,22 +34,24 @@ var myWords = ["Soon", "It" , "Will" , "Be", "My" , "Birthday"];
   text(myWords[4], 10, 230);
   text(myWords[5], 10, 280);
 
-textSize(30);
-text("My Birthday" + " is on " + "April 9'th!", 10, 340);
+fill(199, 0, 0);
+textSize(29);
+text(" CLICK " + " TO " + " SAY " + " YIPPY " + " ❗ ", 10, 340);
 
 
 
+//LINE SEPERATION lol
+fill(0,0,0);
+text("_____________________________", -2, 300);
 
 var x = 0;
   while(X < 400){
-    text("🎁🎉", X, 380);
+    text("🎁", X, 380);
     X += 90;
   }
 
    
-  textSize(15);
-  text(bakeryLabels[0], 70, 105);
-  text(bakeryLabels[1], 70, 185);
+ 
 }
 
 draw = function(){   
@@ -56,7 +60,7 @@ draw = function(){
 
 
 mouseClicked = function(){
-
-  text("Happy Early birthday" , random(0, 600), random(0, 400));
+fill(random(255),random (255),random (255))
+  text("Yippy Yippy" , random(0, 600), random(0, 400));
 
 }
